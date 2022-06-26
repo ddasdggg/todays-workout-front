@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import 'antd/dist/antd.css';
 import Head from 'next/head';
+import 'antd/dist/antd.css';
 
 const App = ({ Component }) => {
   return (
@@ -10,7 +10,7 @@ const App = ({ Component }) => {
         <meta charSet="utf-8"></meta>
         <title>todays-workout</title>
       </Head>
-      <Component></Component>
+      <Component />
     </>
   );
 };
